@@ -1,0 +1,49 @@
+/* The code on lines 9-11 centers the text of all h1's on the page.*/
+a:hover { 
+  background-color: #96d35f;
+}
+
+body {
+  background: #fefcdd;
+  font-size: 15px;
+  text-align: justify;
+  color: #444444;
+  font-family: "Noto Sans", sans-serif;
+  font-style: oblique; }
+
+.monkeypox {
+  font-family: "Copperplate", fantasy;
+}
+
+h1 {
+  text-align:center;
+}
+
+iframe {
+  display: flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+}
+
+img {
+  display: flex;
+  justify-content:space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  width:400px;
+}
+
+h2 {
+  text-align:center;
+}
+
+.sectionsContainer {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.section {
+  border: 3px #fff76b dashed;
+  margin:3px;
+}
